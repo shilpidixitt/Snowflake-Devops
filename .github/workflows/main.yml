@@ -20,10 +20,10 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@main
 
-      - name: Use Python 3.8
+      - name: Use Python 3.8.x
         uses: actions/setup-python@v2.2.1
         with:
-          python-version: 3.8
+          python-version: 3.8.x
 
       - name: Run schemachange
         env:
