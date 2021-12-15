@@ -1,6 +1,6 @@
 name: snowflake-devops-demo
 
-# Controls when the action will run. 
+# Triggers the Workflow when a push occurs 
 on:
   push:
     branches:
